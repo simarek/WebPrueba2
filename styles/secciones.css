@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+h1,
+h2,
+h4,
+h5 {
+  text-transform: uppercase;
+  color: #444;
+  font-family: rale;
+}
+
+h2 {
+  font-size: 26px;
+  color: #333;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-top: 20px;
+  font-weight: normal;
+  color: #777;
+}
+
+.wap {
+  width: 90%;
+  margin: auto;
+}
+
+.bienvenidos {
+  margin-top: 60px;
+  text-align: center;
+}

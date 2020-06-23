@@ -1,0 +1,36 @@
+#particles-js {
+  background: url(../images/fondo9.jpg);
+  /*centrar la imagen*/
+  background-position: center;
+  /* abligara  estar dentro de las dimensiones */
+  background-attachment: contain;
+  /*obligamos a estar dentro del tamaño del contenedor*/
+  background-size: cover;
+}
+
+.ancho-letras {
+  top: 200px;
+  position: absolute;
+  width: 100%;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  text-align: center;
+  z-index: 1;
+}
+
+.letras-slider {
+  width: 65%;
+  margin: auto;
+}
+
+.letras-slider h1 {
+  color: #fff;
+  font-family: rale;
+  font-size: 70px;
+}
+
+.letras-slider p {
+  color: #fff;
+  font-family: rale;
+  font-size: 25px;
+  padding-top: 50px;
+}
