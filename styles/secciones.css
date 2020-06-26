@@ -70,6 +70,16 @@ p {
   width: 100%;
 }
 
+.columnasx3 i {
+  float: left;
+  padding-right: 20px;
+  color: #037d8e;
+}
+
+.columnasx3 h4 {
+  padding-bottom: 20px;
+}
+
 .banner-1 {
   width: 100%;
   background: #037d8e;
@@ -100,4 +110,7 @@ p {
   font-weight: bold;
   color: #fff;
   border-bottom: 2px solid #fff;
+}
+
+.banner-2 {
 }
