@@ -7,7 +7,7 @@ header {
   width: 100%;
   /* background: #1abc9c;*/
   /*poner trasparencia*/
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   /* anch del header */
   height: 70px;
   /*el contenedor header se queda fijo*/
