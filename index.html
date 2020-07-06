@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/redes.css" />
     <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all" />
     <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/formulario.css">
   </head>
 
   <body>
@@ -290,27 +291,59 @@
       </div>
     </section>
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <section class="wap">
+
+      <section class="bienvenidos"> 
+        <h2>Contáctanos</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur minus, eum mollitia doloribus voluptatum ducimus est harum dolore veritatis quaerat ea hic. Dolorum, natus. Placeat ipsa maiores quod ullam provident!</h3>
+      </section>
+
+      <section class="dos-columnas">
+
+        <div class="formulario">
+          <h4 class="formu-ti">Formulario de Contacto</h4>
+          <form action="enviar.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+            <input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+            <input type="tel" name="telefono" placeholder="Teléfono" class="caja-1" required>
+            <input type="text" name="asunto" placeholder="Asunto" class="caja-1">
+            <textarea name="mensaje" id=""  placeholder="Comentarios" class="caja-2"></textarea>
+            <button type="submit" class="contratar-a correr">Enviar</button>
+          </form>
+        </div>
+
+        <div class="datos">
+          <ul class="datos-contacto">
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i></li> 
+            <li><h4>Dirección:</h4>Av. San Francisco #653</li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+            <li><h4>Teléfono:</h4>+56 5 555 555</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+            <li><h4>E-mail</h4>contacto@sudominio.cl</li>
+          </ul>
+        </div>
+
+        <div class="datos">
+          <ul class="datos-contacto">
+            <li><i class="fa fa-twitter" aria-hidden="true"></i></li> 
+            <li><h4>Twitter:</h4>@bluuweb</li>
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><h4>Facebook:</h4>@bluuweb</li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            <li><h4>Instagram:</h4>@bluuweb</li>
+          </ul>
+        </div>
+        
+      </section>
+
+    </section>
+
+    <!-- inio del footer para la pagina  -->
+    <section class="limpia"></section>
+    <footer>
+      <div>Todos los derechos reservados 2020</div>
+      <div>www.platem.com</div>
+    </footer>
 
     <!-- Scripts en java siempre al final -->
     <script src="js/particles.js"></script>
