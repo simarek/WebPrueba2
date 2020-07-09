@@ -1,75 +1,138 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 420px) {
   .red {
     display: none;
   }
+
   header {
     height: 55px;
   }
+
   .ancho {
     width: 100%;
     margin: 0;
     padding: 0;
   }
+
   .logo {
     width: 100%;
     height: 35px;
-    text-align: center;
-    padding: 0;
+    /*text-align: center;*/
+    padding: 0 20px;
     margin: 0;
   }
+
   .logo p a {
     width: 100%;
-    font-size: 30px;
+    /*font-size: 30px;*/
     margin: 0;
   }
+
+  .logo img {
+    height: 44px;
+  }
+
   nav {
     width: 100%;
     text-align: center;
     padding: 0;
     margin: 0;
   }
+
   nav ul li a {
-    font-size: 7px;
+    font-size: 12px;
   }
-  .slideInUp {
+
+  /*.slideInUp {
     display: none;
-  }
+  }*/
+
   .letras-slider h1 {
     font-size: 35px;
   }
+
+  .letras-slider p {
+    font-size: 20px;
+    padding-top: 90px;
+  }
+
+  .bienvenidos h2 {
+    font-size: 26px;
+  }
+
+  .bienvenidos h3 {
+    font-size: 18px;
+  }
+
+  .banner-1 h3 {
+    font-size: 24px;
+  }
+
   .columnasx3 {
     width: 100%;
   }
+
+  .banner-2 h3 {
+    background-size: auto;
+    font-size: 24px;
+  }
+
+  .textos {
+    padding: 50px 10px;
+  }
+
+  .texto-1 img {
+    height: 250px;
+    /*width: 100%;*/
+  }
+
+  .texto-1 h2 {
+    font-size: 26px;
+  }
+
+  .texto-1 h3 {
+    font-size: 18px;
+  }
+
   .tablax4 {
     width: 100%;
   }
+
   .tablaxd {
     width: 100%;
   }
+
+  /*clases para el formulario*/
   .dos-columnas {
     width: 100%;
   }
+
   .formulario {
-    width: 85%;
-    margin: 0;
-  }
-  .formu-ti {
+    float: none;
     width: 100%;
+    background-color: aquamarine;
   }
-  .caja-1 {
-    width: 100%;
-  }
+
+  .formu-ti,
+  .caja-1,
   .caja-2 {
     width: 100%;
   }
-  .datos {
+
+  .contratar-a {
     width: 100%;
   }
+
+  .datos {
+    float: none;
+    width: 100%;
+  }
+
   .correr {
     width: 100%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
   .red {
     display: none;
   }

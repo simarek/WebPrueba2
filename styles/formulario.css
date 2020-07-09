@@ -1,61 +1,99 @@
-.dos-columnas{
-	margin-top: 50px;
+.dos-columnas {
+  margin-top: 50px;
 }
 
-.datos{
-	float: left;
-	width: 25%;
-	margin: auto;
-	color:#999;
+.formulario {
+  margin: auto;
+  background-color: tomato;
+  width: 50%;
+  float: left;
 }
-.formulario{
-	float: left;
-	width: 50%;
-	margin: auto;
-	color:#999;
+
+.datos {
+  float: left;
+  width: 25%;
+  margin: auto;
+  color: #999;
+  background-color: rgb(85, 175, 175);
 }
-.caja-1{
-	width: 250px;
-	height: 40px;
-	margin: 20px 20px;
-	padding: 10px;
-	font-size: 14px;
+
+.caja-1 {
+  width: 250px;
+  height: 40px;
 }
-.caja-2{
-	width: 545px;
-	height: 100px;
-	margin: 20px 20px;
-	padding: 10px;
-	font-size: 14px;
+
+.caja-2 {
+  width: 545px;
+  height: 100px;
 }
-.correr{
-	margin: 20px 20px;
-	padding: 10px;
+
+.caja-1,
+.caja-2 {
+  margin: 20px 20px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: rale;
+  color: #444;
 }
-.formu-ti{
-	margin: 0px 20px;
-	color: #444;
+
+.contratar-a {
+  width: 545px;
+  margin: 20px 20px;
+  padding: 10px;
+  border: 1px solid #85c34a;
+  background-color: #85c34a;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: rale;
+  text-transform: uppercase;
+  color: #fff;
 }
-.datos-contacto{
-	list-style: none;
-	text-align: center;
+
+.contratar-a:hover {
+  opacity: 0.6;
+  color: #000;
+  border: 1px solid #456427;
 }
-.datos-contacto li{
-	color: #444;
-	padding-bottom: 5px;
+/*
+.correr {
+  margin: 20px 20px;
+  padding: 10px;
+}*/
+
+.formu-ti {
+  margin: 0px 20px;
+  color: #444;
 }
-.datos-contacto li i{
-	color: #85c34a;
-	font-size: 60px;
+
+.datos-contacto {
+  list-style: none;
+  text-align: center;
 }
-.limpia{
-	clear: both;
+
+.datos-contacto li {
+  color: #444;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-family: rale;
 }
-footer{
-	clear: both;
-	margin-top: 50px;
-	background: #000;
-	color: #85c34a;
-	text-align: center;
-	padding: 30px;
+
+.datos-contacto li i {
+  color: #85c34a;
+  font-size: 55px;
+  padding-top: 15px;
+}
+
+footer {
+  clear: both;
+  margin-top: 50px;
+  background: #000;
+  color: #85c34a;
+  font-size: 12px;
+  font-family: rale;
+  text-align: center;
+  padding: 30px;
+}
+
+.limpia {
+  clear: both;
 }
