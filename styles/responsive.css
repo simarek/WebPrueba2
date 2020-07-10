@@ -1,5 +1,6 @@
 @media only screen and (max-width: 420px) {
   #particles-js {
+    height: 600px;
     background-attachment: scroll;
   }
 
