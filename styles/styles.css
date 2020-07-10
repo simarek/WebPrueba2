@@ -9,7 +9,7 @@ header {
   /*poner trasparencia*/
   background: rgba(0, 0, 0, 0.6);
   /* anch del header */
-  height: 70px;
+  height: 80px;
   /*el contenedor header se queda fijo*/
   position: fixed;
   z-index: 10;
@@ -17,7 +17,7 @@ header {
 
 /* modificacion del acnho */
 .ancho {
-  width: 80%;
+  width: 84%;
   height: 80px;
   /*background: red;*/
   margin: auto;
@@ -28,25 +28,26 @@ header {
   height: 80px;
   /*background: blue;*/
   float: left;
-  /* padding-top: 10px;*/
+  /* padding-top: 10px; */
+  /*background-color: chartreuse;*/
   box-sizing: border-box;
 }
 
 .logo p a {
-  color: #ff8a04;
+  /*color: #ff8a04;
   font-size: 36px;
   text-decoration: none;
   font-weight: bold;
-  font-family: rale;
+  font-family: rale;*/
 }
 
 img {
   padding-top: 10px;
 }
+
 nav {
   width: 70%;
   height: 80px;
-  /*background: green;*/
   float: right;
   text-align: right;
   padding-top: 24px;
