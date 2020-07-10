@@ -1,7 +1,7 @@
 @media only screen and (max-width: 420px) {
   #particles-js {
-    height: 600px;
-    background-attachment: scroll;
+    height: 660px;
+    /*background-attachment: scroll;*/
   }
 
   .red {
@@ -110,7 +110,7 @@
 
 @media only screen and (min-width: 421px) and (max-width: 768px) {
   #particles-js {
-    background-attachment: scroll;
+    height: 660px;
   }
   .red {
     display: none;
@@ -204,7 +204,11 @@
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #particles-js {
+    height: 660px;
+  }
+
   header {
     height: 64px;
   }
@@ -260,4 +264,6 @@
   .correr {
     width: 100%;
   }
+}
+@media only screen and (min-width: 1025px) {
 }

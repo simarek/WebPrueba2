@@ -33,14 +33,6 @@ header {
   box-sizing: border-box;
 }
 
-.logo p a {
-  /*color: #ff8a04;
-  font-size: 36px;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: rale;*/
-}
-
 img {
   padding-top: 10px;
 }
@@ -59,7 +51,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #5bb9c6;
+  color: #ccc;
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
@@ -70,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #aaa;
+  color: #5bb9c6;
 }
 
 @font-face {
