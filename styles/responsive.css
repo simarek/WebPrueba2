@@ -1,4 +1,8 @@
 @media only screen and (max-width: 420px) {
+  #particles-js {
+    background-attachment: scroll;
+  }
+
   .red {
     display: none;
   }
@@ -19,12 +23,6 @@
     /*text-align: center;*/
     padding: 0 20px;
     margin: 0;
-  }
-
-  .logo p a {
-    /*width: 100%;
-    font-size: 30px;
-    margin: 0;*/
   }
 
   .logo img {
@@ -99,23 +97,6 @@
   }
 
   /*clases para el formulario*/
-  .dos-columnas {
-  }
-
-  .formulario {
-    /*background-color: aquamarine;*/
-  }
-
-  .formu-ti {
-  }
-
-  .caja-1,
-  .caja-2 {
-  }
-
-  .contratar-a {
-  }
-
   .datos {
     float: left;
     width: 50%;
@@ -127,6 +108,9 @@
 }
 
 @media only screen and (min-width: 421px) and (max-width: 768px) {
+  #particles-js {
+    background-attachment: scroll;
+  }
   .red {
     display: none;
   }
@@ -144,9 +128,6 @@
   .logo {
     padding: 0 30px;
     margin: 0;
-  }
-
-  .logo p a {
   }
 
   .logo img {
@@ -212,20 +193,6 @@
     width: 50%;
   }
 
-  .formulario {
-    /*background-color: aquamarine;*/
-  }
-
-  .formu-ti {
-  }
-
-  .caja-1,
-  .caja-2 {
-  }
-
-  .contratar-a {
-  }
-
   .datos {
     float: left;
     width: 50%;
@@ -237,9 +204,6 @@
 }
 
 @media only screen and (min-width: 769px) {
-  .red {
-  }
-
   header {
     height: 64px;
   }
@@ -253,39 +217,12 @@
     margin: 0;
   }
 
-  .logo p a {
-  }
-
-  .logo img {
-  }
-
   nav {
     padding-top: 18;
   }
 
   nav ul li a {
     font-size: 13px;
-  }
-
-  .letras-slider h1 {
-  }
-
-  .letras-slider p {
-  }
-
-  .bienvenidos h2 {
-  }
-
-  .bienvenidos h3 {
-  }
-
-  .banner-1 h3 {
-  }
-
-  .columnasx3 {
-  }
-
-  .banner-2 h3 {
   }
 
   .textos {
@@ -312,16 +249,6 @@
   .formulario {
     float: left;
     width: 50%;
-  }
-
-  .formu-ti {
-  }
-
-  .caja-1,
-  .caja-2 {
-  }
-
-  .contratar-a {
   }
 
   .datos {
