@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+.formulario {
+  /*width: 50%;*/
+}
+
 .caja-1,
 .caja-2 {
   margin-top: 15px;
@@ -52,9 +56,9 @@
 }*/
 
 .datos {
-  float: left;
-  width: 50%;
-  margin: auto;
+  /*float: left;
+  width: 25%;
+  /*margin: auto;*/
   color: #999;
 }
 

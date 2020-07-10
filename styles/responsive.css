@@ -43,7 +43,6 @@
   /*.slideInUp {
     display: none;
   }*/
-
   .letras-slider h1 {
     font-size: 32px;
   }
@@ -103,13 +102,13 @@
   .dos-columnas {
   }
 
-  /*.formulario {
-    float: none;
-    width: 100%;
-    background-color: aquamarine;
-  }*/
+  .formulario {
+    /*background-color: aquamarine;*/
+  }
 
-  .formu-ti,
+  .formu-ti {
+  }
+
   .caja-1,
   .caja-2 {
   }
@@ -118,6 +117,8 @@
   }
 
   .datos {
+    float: left;
+    width: 50%;
   }
 
   .correr {
@@ -180,14 +181,14 @@
   .banner-1 h3 {
     font-size: 28px;
   }
-  /*
+
   .columnasx3 {
     width: 100%;
   }
 
   .banner-2 h3 {
     background-size: auto;
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .textos {
@@ -199,26 +200,25 @@
   }
 
   .texto-1 h2 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .texto-1 h3 {
     font-size: 18px;
   }
 
-  .tablax4 {
-    width: 100%;
-  }
-
-  .tablaxd {
-    width: 100%;
-  }
-
   .dos-columnas {
-
+    float: left;
+    width: 50%;
   }
 
-  .formu-ti,
+  .formulario {
+    /*background-color: aquamarine;*/
+  }
+
+  .formu-ti {
+  }
+
   .caja-1,
   .caja-2 {
   }
@@ -227,10 +227,109 @@
   }
 
   .datos {
-
+    float: left;
+    width: 50%;
   }
 
   .correr {
     width: 100%;
-  }*/
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .red {
+  }
+
+  header {
+    height: 64px;
+  }
+
+  .ancho {
+    width: 100%;
+  }
+
+  .logo {
+    padding: 0 40px;
+    margin: 0;
+  }
+
+  .logo p a {
+  }
+
+  .logo img {
+  }
+
+  nav {
+    padding-top: 18;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
+
+  .letras-slider h1 {
+  }
+
+  .letras-slider p {
+  }
+
+  .bienvenidos h2 {
+  }
+
+  .bienvenidos h3 {
+  }
+
+  .banner-1 h3 {
+  }
+
+  .columnasx3 {
+  }
+
+  .banner-2 h3 {
+  }
+
+  .textos {
+    padding: 50px 10px;
+  }
+
+  .texto-1 img {
+    height: 250px;
+  }
+
+  .texto-1 h2 {
+    font-size: 30px;
+  }
+
+  .texto-1 h3 {
+    font-size: 18px;
+  }
+
+  .dos-columnas {
+    float: left;
+    width: 100%;
+  }
+
+  .formulario {
+    float: left;
+    width: 50%;
+  }
+
+  .formu-ti {
+  }
+
+  .caja-1,
+  .caja-2 {
+  }
+
+  .contratar-a {
+  }
+
+  .datos {
+    float: left;
+    width: 25%;
+  }
+
+  .correr {
+    width: 100%;
+  }
 }
