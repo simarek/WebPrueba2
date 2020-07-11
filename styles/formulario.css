@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.formulario {
-  /*width: 50%;*/
-}
-
 .caja-1,
 .caja-2 {
   margin-top: 15px;
@@ -49,16 +45,7 @@
   border: 1px solid #456427;
 }
 
-/*
-.correr {
-  margin: 20px 20px;
-  padding: 10px;
-}*/
-
 .datos {
-  /*float: left;
-  width: 25%;
-  /*margin: auto;*/
   color: #999;
 }
 

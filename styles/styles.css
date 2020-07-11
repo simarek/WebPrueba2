@@ -19,17 +19,13 @@ header {
 .ancho {
   width: 84%;
   height: 80px;
-  /*background: red;*/
   margin: auto;
 }
 
 .logo {
   width: 30%;
   height: 80px;
-  /*background: blue;*/
   float: left;
-  /* padding-top: 10px; */
-  /*background-color: chartreuse;*/
   box-sizing: border-box;
 }
 
