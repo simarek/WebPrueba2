@@ -33,16 +33,45 @@ header {
   box-sizing: border-box;
 }
 
-img {
-  padding-top: 10px;
+.logo img {
+  padding-top: 14px;
+  height: 64px;
 }
 
+.ver-menu,
+.ocultar-menu {
+  color: #ccc;
+  transition: 0.3s;
+  font-size: 30px;
+  display: none;
+  cursor: pointer;
+}
+
+.ver-menu:hover,
+.ocultar-menu:hover {
+  color: #5bb9c6;
+}
+
+.ver-menu {
+  float: right;
+}
+
+.ver-menu i {
+  padding-top: 14px;
+  padding-right: 14px;
+}
+
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
 nav {
   width: 70%;
   height: 80px;
   float: right;
   text-align: right;
-  padding-top: 24px;
+  padding-top: 32px;
   box-sizing: border-box;
 }
 
@@ -52,13 +81,14 @@ nav ul li {
 
 nav ul li a {
   color: #ccc;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
-  padding-left: 20px;
+  padding-left: 12px;
   font-weight: bold;
   letter-spacing: 1px;
   font-family: rale;
+  transition: 0.3s;
 }
 
 nav ul li a:hover {
