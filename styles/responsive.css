@@ -12,7 +12,7 @@
   }
 
   .logo img {
-    padding-top: 16px;
+    padding-top: 10px;
     height: 44px;
   }
 
@@ -44,6 +44,7 @@
   nav a {
     display: block;
     padding: 20px;
+    /*border-bottom: 0.5px solid #555;*/
   }
 
   nav ul li a {
