@@ -41,6 +41,8 @@
 }
 
 .contratar-a:hover {
+  font-weight: bold;
+  font-family: rale;
   color: #000;
   opacity: 0.6;
   border: 1px solid #40808f;

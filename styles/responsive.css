@@ -35,7 +35,7 @@
     height: 100vh;
     background: #333;
     right: -100%;
-    top: 0;
+    top: 56px;
     text-align: center;
     line-height: normal;
     transition: 0.7s;
@@ -166,7 +166,7 @@
     height: 100vh;
     background: #333;
     right: -100%;
-    top: 0;
+    top: 56px;
     text-align: center;
     line-height: normal;
     transition: 0.7s;
