@@ -60,7 +60,7 @@ header {
 #chk {
   position: absolute;
   visibility: hidden;
-  z-index: -1111;
+  z-index: -100;
 }
 
 nav {
@@ -69,7 +69,9 @@ nav {
   float: right;
   text-align: right;
   padding-top: 32px;
+  padding-right: 110px;
   box-sizing: border-box;
+  z-index: 20;
 }
 
 nav ul li {
@@ -86,6 +88,7 @@ nav ul li a {
   letter-spacing: 1px;
   font-family: rale;
   transition: 0.3s;
+  z-index: 30;
 }
 
 nav ul li a:hover {
@@ -95,4 +98,89 @@ nav ul li a:hover {
 @font-face {
   font-family: rale;
   src: url(../fonts/Raleway-Regular.ttf);
+}
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.inp-modal {
+  float: right;
+}
+
+.lbl-modal {
+  position: absolute;
+  right: 80px;
+  top: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#btn-modal:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor-m {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding: 15px 15px;
+  background: #fff;
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  transition: all 500ms ease;
+  position: relative;
+  transform: translateY(-30%);
+}
+
+#btn-modal:checked ~ .modal .contenedor-m {
+  transform: translateY(0%);
+}
+
+.contenedor-m .titulo-m {
+  padding: 10px;
+  background: #5bb9c6;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contenedor-m label {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: rale;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#btn-modal {
+  display: none;
+}
+
+.lbl-modal {
+  font-family: rale;
+  background: rgb(255, 217, 0);
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
 }

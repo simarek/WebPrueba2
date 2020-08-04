@@ -73,14 +73,33 @@
           <ul>
             <li><a href="">Inicio</a></li>
             <li><a href="">Nosotros</a></li>
-            <li><a href="">Servicios</a></li>
             <li><a href="">Profesionales</a></li>
             <li><a href="">Contacto</a></li>
+            
             <!-- <label for="chk" class="ocultar-menu">
               <i class="fa fa-arrow-right" ></i>
             </label> -->
           </ul>
+          
         </nav>
+
+        <input type="checkbox" id="btn-modal" class="inp-modal" />
+        <label for="btn-modal" class="lbl-modal">Iniciar Sesión</label>
+
+        <div class="modal">
+          <div class="contenedor-m">
+            <h3 class="titulo-m">!Bienvenidos!</h3>
+            <label for="btn-modal">X</label>
+            <div class="contenido">
+              <form action="enviar.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+            <input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+          </form>
+              <a href="" class="link-modal">Iniciar sesion</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </header>
 
@@ -98,6 +117,8 @@
     <!-- Animacion de particulas y fondo en JS -->
     <div id="particles-js"></div>
     
+    
+
     <!-- Seccion de contenido wap -->
     <section class="wap">
       <!-- Seccion de Bienvenida -->
