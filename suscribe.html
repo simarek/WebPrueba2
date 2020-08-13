@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="styles/formulario.css" />
   </head>
   <body>
-    <header>
+    <header class="form-main">
       <!-- Ancho contenedor logo y Barra de navegacion -->
       <div class="ancho">
         <!-- Logo principal de la pagina -->
         <div class="logo">
           <a href="#"
-            ><p><img src="images/logo5.png" /></p
+            ><p><img class="img-suscribe" src="images/logo7.png" /></p
           ></a>
         </div>
 
@@ -31,70 +31,150 @@
       </div>
     </header>
 
-    <section>
-      <div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+    <section class="suscribe">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div class="lateral">
+        <ul>
+          <li><a href="">Registro Profesional</a></li>
+          <li><a href="">Servicios</a></li>
+          <li><a href="">Experiencia Laboral</a></li>
+        </ul>
+      </div>
+
+      <div class="form-suscribe">
         <h1>Registro profesional</h1>
         <br />
         <br />
-        <div class="suscribe">
-          <form action="" method="post">
-            <label for="" class="lbl-suscribe">Nombres</label>
-            <input
-              type="text"
-              name="NombreProf"
-              placeholder="Nombre"
-              class="caja-suscribe"
-            />
+        <form action="" method="post">
+          <label class="lbl-suscribe">Nombres</label>
+          <input
+            type="text"
+            name="NombreProf"
+            placeholder="Nombre"
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
 
-            <label for="" class="lbl-suscribe">Apellido Paterno</label>
-            <input
-              type="text"
-              name="PaternoProf"
-              placeholder="Paterno"
-              class="caja-suscribe"
-            />
+          <label class="lbl-suscribe">Apellido Paterno</label>
+          <input
+            type="text"
+            name="PaternoProf"
+            placeholder="Paterno"
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
 
-            <label for="" class="lbl-suscribe">Apellido Materno</label>
-            <input
-              type="text"
-              name="MaternoProf"
-              placeholder="Materno"
-              class="caja-suscribe"
-            />
+          <label class="lbl-suscribe">Apellido Materno</label>
+          <input
+            type="text"
+            name="MaternoProf"
+            placeholder="Materno"
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
 
-            <label for="" class="lbl-suscribe">Celular</label>
-            <input
-              type="tel"
-              name="CelularProf"
-              placeholder="Celular"
-              class="caja-suscribe"
-            />
+          <label class="lbl-suscribe">Celular</label>
+          <input
+            type="tel"
+            name="CelularProf"
+            placeholder="Celular"
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
 
-            <label for="" class="lbl-suscribe">Cedula de Identidad</label>
-            <input
-              type="num"
-              name="CedulaProf"
-              placeholder="C.I."
-              class="caja-suscribe"
-            />
+          <label class="lbl-suscribe">Cedula de Identidad</label>
+          <input
+            type="num"
+            name="CedulaProf"
+            placeholder="C.I."
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
 
-            <label for="" class="lbl-suscribe">Contraseña</label>
-            <input
-              type="password"
-              name="ContraseñaProf"
-              placeholder="Password"
-              class="caja-suscribe"
-              required
-            />
-            <label for="" class="btn-suscribe">Siguiente</label>
-          </form>
-        </div>
+          <label class="lbl-suscribe">Contraseña</label>
+          <input
+            type="password"
+            name="ContraseñaProf"
+            placeholder="Password"
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
+
+          <label class="lbl-suscribe">Profesion</label>
+          <input
+            type="text"
+            name="Profesion"
+            placeholder="Profesion"
+            class="caja-suscribe"
+            required
+          />
+          <br />
+          <br />
+
+          <label class="lbl-suscribe">Area de estudio</label>
+          <br />
+
+          <input type="radio" name="AreaEstudio" id="col" value="ing" />
+          <label for="col">Ingenieria</label><br />
+
+          <input type="radio" name="AreaEstudio" id="inst" value="aud" />
+          <label for="inst">Auditoria</label><br />
+
+          <input type="radio" name="AreaEstudio" id="univ" value="infor" />
+          <label for="univ">Informatica</label>
+          <br />
+          <br />
+          <label class="lbl-suscribe">Descripcion</label>
+          <br />
+          <textarea
+            name="Descripcion"
+            placeholder="Descripcion"
+            cols="50"
+            rows="10"
+          ></textarea>
+          <br />
+          <br />
+
+          <label class="lbl-suscribe">Fotografia</label>
+          <input
+            type="text"
+            name="Fotografia"
+            placeholder="Ingresa tu fotografia"
+            class="caja-suscribe"
+            required
+          />
+          <br />
+          <br />
+          <label class="lbl-suscribe">Ubicacion</label>
+
+          <select name="Ubicacion" id="" class="caja-suscribe">
+            <option value="op">Elija una opcion...</option>
+            <option value="lp">La Paz</option>
+            <option value="or">Oruro</option>
+            <option value="pt">Potosi</option>
+            <option value="cb">Cochabamba</option>
+            <option value="ch">Chuquisaca</option>
+            <option value="tj">Tarija</option>
+            <option value="pn">Pando</option>
+            <option value="bn">Beni</option>
+            <option value="sc">Santa Cruz</option>
+          </select>
+          <br />
+          <br />
+          <label class="btn-suscribe">Siguiente</label>
+        </form>
       </div>
     </section>
   </body>

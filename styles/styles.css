@@ -184,3 +184,63 @@ nav ul li a:hover {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.form-main {
+  width: 100%;
+  background: #f9f9f9;
+  height: 80px;
+}
+
+.suscribe {
+  font-family: rale;
+  width: 70%;
+  margin: auto;
+  padding: 1em, 1.5em;
+  box-sizing: border-box;
+}
+
+.img-suscribe {
+  /*width: 30%;*/
+  height: 80px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.img-suscribe {
+  padding-top: 14px;
+  height: 64px;
+}
+
+.lateral {
+  float: left;
+  width: 30%;
+  /* background-color: #ddd; */
+  margin: auto;
+  padding: 1em, 1.5em;
+}
+
+.lateral ul li {
+  display: block;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-suscribe {
+  float: left;
+  width: 60%;
+  margin: auto;
+  padding: 1em, 1.5em;
+}
+
+.a-suscribe {
+  float: right;
+  color: #fff;
+  font-family: rale;
+  font-weight: bold;
+  background: #03989e;
+  padding: 10px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

@@ -55,7 +55,7 @@
     <!-- Header pagina web -->
     <!-- se tendra el contenido de la barra de navegaciom 
       mas el logo de la pagina  -->
-    <header>
+    <header class="main">
       <!-- Ancho contenedor logo y Barra de navegacion -->
       <div class="ancho">
         <!-- Logo principal de la pagina -->
@@ -92,9 +92,9 @@
             <label for="btn-modal">X</label>
             <div class="contenido">
               <form action="enviar.php" method="post">
-            <input type="text" name="nombre" placeholder="Nombre" class="caja-1">
-            <input type="email" name="email" placeholder="E-mail" class="caja-1" required>
-          </form>
+                <input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+                <input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+              </form>
               <a href="" class="link-modal">Iniciar sesion</a>
             </div>
           </div>
@@ -102,8 +102,8 @@
 
         <!-- <input type="checkbox" id="btn-modal" class="inp-modal" />
         <label for="btn-modal" class="lbl-modal">Suscripcion</label> -->
-        <a href="../suscribe.html" class="suscribe">Unete a nosotros</a>
-
+        <a href="../suscribe.html" class="a-suscribe">Unete a nosotros</a>
+        
       </div>
     </header>
 
@@ -121,8 +121,6 @@
     <!-- Animacion de particulas y fondo en JS -->
     <div id="particles-js"></div>
     
-    
-
     <!-- Seccion de contenido wap -->
     <section class="wap">
       <!-- Seccion de Bienvenida -->
@@ -345,7 +343,7 @@
             <input type="email" name="email" placeholder="E-mail" class="caja-1" required>
             <input type="tel" name="telefono" placeholder="Teléfono" class="caja-1" required>
             <input type="text" name="asunto" placeholder="Asunto" class="caja-1">
-            <textarea name="mensaje" id=""  placeholder="Deja un comentario" class="caja-2"></textarea>
+            <textarea name="mensaje" id="" placeholder="Deja un comentario" class="caja-2"></textarea>
             <button type="submit" class="contratar-a">Enviar</button>
           </form>
         </div>
