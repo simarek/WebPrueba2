@@ -222,15 +222,16 @@ nav ul li a:hover {
 .lateral ul li {
   display: block;
   text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .form-suscribe {
   float: left;
   width: 60%;
   margin: auto;
-  padding: 1em, 1.5em;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 .a-suscribe {
