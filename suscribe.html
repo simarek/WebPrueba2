@@ -13,7 +13,7 @@
       <div class="ancho">
         <!-- Logo principal de la pagina -->
         <div class="logo">
-          <a href="#"
+          <a href="index.html"
             ><p><img class="img-suscribe" src="images/logo7.png" /></p
           ></a>
         </div>
@@ -41,21 +41,21 @@
 
       <div class="lateral">
         <ul>
-          <li><a href="">Registro Profesional</a></li>
-          <li><a href="">Servicios</a></li>
-          <li><a href="">Experiencia Laboral</a></li>
+          <li><a href="">Usuario</a></li>
+          <li><a href="suscribe1.html">Freelancer</a></li>
+          <li><a href="suscribe2.html">Profesional</a></li>
         </ul>
       </div>
 
       <div class="form-suscribe">
-        <h1>Registro profesional</h1>
+        <h1>Registro usuario</h1>
         <br />
         <br />
         <form action="" method="post">
           <label class="lbl-suscribe">Nombres</label>
           <input
             type="text"
-            name="NombreProf"
+            name="Nombres"
             placeholder="Nombre"
             class="caja-suscribe"
           />
@@ -65,7 +65,7 @@
           <label class="lbl-suscribe">Apellido Paterno</label>
           <input
             type="text"
-            name="PaternoProf"
+            name="PaternoUsr"
             placeholder="Paterno"
             class="caja-suscribe"
           />
@@ -75,7 +75,7 @@
           <label class="lbl-suscribe">Apellido Materno</label>
           <input
             type="text"
-            name="MaternoProf"
+            name="MaternoUsr"
             placeholder="Materno"
             class="caja-suscribe"
           />
@@ -85,7 +85,7 @@
           <label class="lbl-suscribe">Celular</label>
           <input
             type="tel"
-            name="CelularProf"
+            name="Celular"
             placeholder="Celular"
             class="caja-suscribe"
           />
@@ -94,9 +94,19 @@
 
           <label class="lbl-suscribe">Cedula de Identidad</label>
           <input
-            type="num"
-            name="CedulaProf"
+            type="text"
+            name="ci"
             placeholder="C.I."
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
+
+          <label class="lbl-suscribe">E-mail</label>
+          <input
+            type="email"
+            name="Email"
+            placeholder="E-mail"
             class="caja-suscribe"
           />
           <br />
@@ -105,18 +115,8 @@
           <label class="lbl-suscribe">Contraseña</label>
           <input
             type="password"
-            name="ContraseñaProf"
-            placeholder="Password"
-            class="caja-suscribe"
-          />
-          <br />
-          <br />
-
-          <label class="lbl-suscribe">Profesion</label>
-          <input
-            type="text"
-            name="Profesion"
-            placeholder="Profesion"
+            name="contraseña"
+            placeholder="Contraseña"
             class="caja-suscribe"
             required
           />
@@ -147,16 +147,6 @@
           <br />
           <br />
 
-          <label class="lbl-suscribe">Fotografia</label>
-          <input
-            type="text"
-            name="Fotografia"
-            placeholder="Ingresa tu fotografia"
-            class="caja-suscribe"
-            required
-          />
-          <br />
-          <br />
           <label class="lbl-suscribe">Ubicacion</label>
 
           <select name="Ubicacion" id="" class="caja-suscribe">

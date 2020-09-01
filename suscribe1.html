@@ -13,7 +13,7 @@
       <div class="ancho">
         <!-- Logo principal de la pagina -->
         <div class="logo">
-          <a href="#"
+          <a href="index.html"
             ><p><img class="img-suscribe" src="images/logo7.png" /></p
           ></a>
         </div>
@@ -41,36 +41,103 @@
 
       <div class="lateral">
         <ul>
-          <li><a href="">Registro Profesional</a></li>
-          <li><a href="">Servicios</a></li>
-          <li><a href="">Experiencia Laboral</a></li>
+          <li><a href="suscribe.html">Usuario</a></li>
+          <li><a href="">Freelancer</a></li>
+          <li><a href="suscribe2.html">Profesional</a></li>
         </ul>
       </div>
 
       <div class="form-suscribe">
-        <h1>Registro profesional</h1>
+        <h1>Registro Freelancer</h1>
         <br />
         <br />
         <form action="" method="post">
-          <label class="lbl-suscribe">Servicios</label>
-          <input type="checkbox" name="Servicios" class="caja-suscribe" />
-          <input type="checkbox" name="Servicios" class="caja-suscribe" />
-          <input type="checkbox" name="Servicios" class="caja-suscribe" />
+          <label class="lbl-suscribe">Numero de Cuenta</label>
+          <input
+            type="text"
+            name="nroCuenta"
+            placeholder="Nombre"
+            class="caja-suscribe"
+          />
+          <br />
+          <br />
 
+          <label class="lbl-suscribe">Especialidad</label>
+          <input
+            type="text"
+            name="nroCuenta"
+            placeholder="Nombre"
+            class="caja-suscribe"
+          />
           <br />
           <br />
+
+          <label class="lbl-suscribe">Area de estudio</label>
+          <br />
+
+          <input type="radio" name="AreaEstudio" id="col" value="ing" />
+          <label for="col">Ingenieria</label><br />
+
+          <input type="radio" name="AreaEstudio" id="inst" value="aud" />
+          <label for="inst">Auditoria</label><br />
+
+          <input type="radio" name="AreaEstudio" id="univ" value="infor" />
+          <label for="univ">Informatica</label>
           <br />
           <br />
+
+          <label class="lbl-suscribe">Descripcion</label>
+          <br />
+          <textarea
+            name="Descripcion"
+            placeholder="Descripcion"
+            cols="50"
+            rows="10"
+          ></textarea>
           <br />
           <br />
+
+          <label class="lbl-suscribe">Fotografia</label>
+          <input
+            type="text"
+            name="Fotografia"
+            placeholder="Ingresa tu fotografia"
+            class="caja-suscribe"
+            required
+          />
+          <button>Subir Foto</button>
           <br />
           <br />
+
+          <label class="lbl-suscribe">Grado de Estudio</label>
+          <br />
+
+          <input type="radio" name="GradoEstudio" id="col" value="col" />
+          <label for="col">Colegio</label><br />
+
+          <input type="radio" name="GradoEstudio" id="inst" value="inst" />
+          <label for="inst">Instituto</label><br />
+
+          <input type="radio" name="GradoEstudio" id="univ" value="univ" />
+          <label for="univ">Universitario</label>
           <br />
           <br />
-          <a href="/index.html" class="a-suscribe">Registrar</a>
+
+          <label class="lbl-suscribe">Nivel de Ecperiencia</label>
+          <br />
+
+          <input type="radio" name="NivelExp" id="bas" value="bas" />
+          <label for="bas">Basico</label><br />
+
+          <input type="radio" name="NivelExp" id="int" value="int" />
+          <label for="int">Intermedio</label><br />
+
+          <input type="radio" name="NivelExp" id="exp" value="exp" />
+          <label for="exp">Experto</label>
           <br />
           <br />
-          <!-- <label class="btn-suscribe">Siguiente</label> -->
+
+          <a href="/suscribe1.html" class="a-suscribe">Siguiente</a>
         </form>
       </div>
     </section>
