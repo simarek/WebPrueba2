@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="styles/formulario.css" />
   </head>
   <body>
+    <!-- Cabecera Pagina Principal -->
+
     <header class="form-main">
       <!-- Ancho contenedor logo y Barra de navegacion -->
+
       <div class="ancho">
         <!-- Logo principal de la pagina -->
+
         <div class="logo">
           <a href="index.html"
             ><p><img class="img-suscribe" src="images/logo7.png" /></p
           ></a>
         </div>
-
         <!-- Menu de navegacion de la pagina -->
+
         <input type="checkbox" id="chk" />
         <label for="chk" class="ver-menu">
           <i class="fa fa-bars"></i>
@@ -39,6 +43,7 @@
       <br />
       <br />
 
+      <!-- enlaces a suscripcion, freelancer y profesional -->
       <div class="lateral">
         <ul>
           <li><a href="">Usuario</a></li>
@@ -47,11 +52,14 @@
         </ul>
       </div>
 
+      <!-- contenido de registro -->
       <div class="form-suscribe">
         <h1>Registro usuario</h1>
         <br />
         <br />
-        <form action="" method="post">
+
+        <!-- Formulario de registro de usuario  -->
+        <form action="resgistro.php" method="post">
           <label class="lbl-suscribe">Nombres</label>
           <input
             type="text"
@@ -84,11 +92,13 @@
 
           <label class="lbl-suscribe">Celular</label>
           <input
-            type="tel"
+            type="text"
             name="Celular"
-            placeholder="Celular"
+            placeholder="71234567"
             class="caja-suscribe"
+            pattern="[0-9]{7,8}"
           />
+          <small>Formato: (7xxxxxxx) o (6xxxxxxx)</small>
           <br />
           <br />
 
@@ -98,6 +108,7 @@
             name="ci"
             placeholder="C.I."
             class="caja-suscribe"
+            pattern="[0-9]{6,8}"
           />
           <br />
           <br />
@@ -120,20 +131,21 @@
             class="caja-suscribe"
             required
           />
+          <small>Contraseña minima de 8 carecteres</small>
           <br />
           <br />
 
-          <label class="lbl-suscribe">Area de estudio</label>
+          <label class="lbl-suscribe">Area de Estudio</label>
           <br />
 
-          <input type="radio" name="AreaEstudio" id="col" value="ing" />
-          <label for="col">Ingenieria</label><br />
+          <select name="AreaEstudio" id="" class="caja-suscribe">
+            <option value="op">Elija una opcion:</option>
+            <option value="ing">Ingenieria</option>
+            <option value="aud">Auditoria</option>
+            <option value="der">Derecho</option>
+            <option value="inf">Informatica o Sistemas</option>
+          </select>
 
-          <input type="radio" name="AreaEstudio" id="inst" value="aud" />
-          <label for="inst">Auditoria</label><br />
-
-          <input type="radio" name="AreaEstudio" id="univ" value="infor" />
-          <label for="univ">Informatica</label>
           <br />
           <br />
           <label class="lbl-suscribe">Descripcion</label>
@@ -150,7 +162,7 @@
           <label class="lbl-suscribe">Ubicacion</label>
 
           <select name="Ubicacion" id="" class="caja-suscribe">
-            <option value="op">Elija una opcion...</option>
+            <option value="op">Elija su ciudad:</option>
             <option value="lp">La Paz</option>
             <option value="or">Oruro</option>
             <option value="pt">Potosi</option>
@@ -165,12 +177,18 @@
           <br />
           <a href="/suscribe1.html" class="a-suscribe">Siguiente</a>
         </form>
+
+        <!-- fin datos registro usuario -->
       </div>
+
+      <!-- fin contenedor de registro -->
     </section>
+
+    <!-- Footer de la pagina -->
     <footer>
       <br />
       <div>
-        <p>Todos los Derechos Reservados 2020</p>
+        <p>Todos los Derechos Reservados &copy; 2020</p>
         <br />
         <p>www.platem.com</p>
       </div>
