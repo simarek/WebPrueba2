@@ -64,7 +64,7 @@
           <input
             type="text"
             name="Nombres"
-            placeholder="Nombre"
+            placeholder="Ingresa tus nombres"
             class="caja-suscribe"
             required=""
             pattern="[A-Z a-z]+"
@@ -76,7 +76,7 @@
           <input
             type="text"
             name="PaternoUsr"
-            placeholder="Paterno"
+            placeholder="Ingresa tu apellido Paterno"
             class="caja-suscribe"
             pattern="[A-Z a-z]+"
           />
@@ -87,7 +87,7 @@
           <input
             type="text"
             name="MaternoUsr"
-            placeholder="Materno"
+            placeholder="Ingresa tu apellido Materno"
             class="caja-suscribe"
             required=""
             pattern="[A-Z a-z]+"
@@ -99,9 +99,9 @@
           <input
             type="text"
             name="Celular"
-            placeholder="71234567"
+            placeholder="Ingresa tu numero de contacto valido"
             class="caja-suscribe"
-            pattern="[0-9]+{7,8}"
+            pattern="[0-9]{8}"
           />
           <small>Formato: (7xxxxxxx) o (6xxxxxxx)</small>
           <br />
@@ -111,9 +111,9 @@
           <input
             type="text"
             name="ci"
-            placeholder="C.I."
+            placeholder="Ingresa tu C.I."
             class="caja-suscribe"
-            pattern="[0-9]+{6,8}"
+            pattern="[0-9]{7,8}"
           />
           <br />
           <br />
@@ -122,8 +122,10 @@
           <input
             type="email"
             name="Email"
-            placeholder="E-mail"
+            placeholder="Ingresa tu E-mail"
             class="caja-suscribe"
+            required
+            pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
           />
           <br />
           <br />
@@ -132,10 +134,11 @@
           <input
             type="password"
             name="contraseña"
-            placeholder="Contraseña"
+            placeholder="Ingresa una contraseña valida"
             class="caja-suscribe"
-            required=""
-            pattern="[A-Z a-z 0-9]+"
+            required
+            pattern=".{6,20}"
+            title="Entre 8 y 20 caracteres"
           />
           <small>Contraseña minima de 8 carecteres</small>
           <br />
