@@ -51,7 +51,7 @@
         <h1>Registro Freelancer</h1>
         <br />
         <br />
-        <form action="" method="post">
+        <form action="" method="post" enctype="multipart/form-data">
           <label class="lbl-suscribe">Numero de Cuenta</label>
           <input
             type="text"
@@ -61,8 +61,6 @@
             required=""
             pattern="[0-9]+"
           />
-          <br />
-          <br />
 
           <label class="lbl-suscribe">Especialidad</label>
           <input
@@ -71,8 +69,6 @@
             placeholder="Nombre"
             class="caja-suscribe"
           />
-          <br />
-          <br />
 
           <label class="lbl-suscribe">Area de estudio</label>
           <br />
@@ -89,19 +85,21 @@
           <br />
 
           <label class="lbl-suscribe">Fotografia</label>
+          <br />
+          Subir imagen:
           <input
-            type="text"
+            id="image"
             name="Fotografia"
-            placeholder="Ingresa tu fotografia"
-            class="caja-suscribe"
+            type="file"
+            accept=".jpg, .jpeg, .png"
             required
           />
-          <button>Subir Foto</button>
+          <!-- <input type="submit" name="subir" value="Subir" /> -->
           <br />
           <br />
 
           <label class="lbl-suscribe">Grado de Estudio</label>
-          <br />
+          <br /><br />
 
           <input type="radio" name="GradoEstudio" id="col" value="col" />
           <label for="col">Colegio</label><br />
@@ -111,9 +109,7 @@
 
           <input type="radio" name="GradoEstudio" id="univ" value="univ" />
           <label for="univ">Universitario</label>
-          <br />
-          <br />
-
+          <br /><br />
           <label class="lbl-suscribe">Nivel de Experiencia</label>
           <br />
 
@@ -125,21 +121,17 @@
 
           <input type="radio" name="NivelExp" id="exp" value="exp" />
           <label for="exp">Experto</label>
-          <br />
-          <br />
-
+          <br /><br />
           <label class="lbl-suscribe">Descripcion</label>
           <br />
           <textarea
             name="Descripcion"
             placeholder="Descripcion"
-            cols="50"
+            cols="68"
             rows="10"
             required=""
             pattern="[A-Z a-z0-9]+"
           ></textarea>
-          <br />
-          <br />
 
           <a href="/suscribe2.html" class="a-suscribe">Siguiente</a>
         </form>
