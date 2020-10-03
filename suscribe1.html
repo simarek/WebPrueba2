@@ -51,7 +51,7 @@
         <h1>Registro Freelancer</h1>
         <br />
         <br />
-        <form action="" method="post" enctype="multipart/form-data">
+        <form action="" method="post">
           <label class="lbl-suscribe">Numero de Cuenta</label>
           <input
             type="text"
@@ -84,17 +84,20 @@
           <br />
           <br />
 
+          <!-- ingrsar fotografia en imagen jpg, jpeg o png -->
           <label class="lbl-suscribe">Fotografia</label>
           <br />
           Subir imagen:
           <input
-            id="image"
-            name="Fotografia"
             type="file"
+            name="file"
+            id="file"
             accept=".jpg, .jpeg, .png"
-            required
+            onchange="previewImage();"
           />
+          <img id="preview" width="250" />
           <!-- <input type="submit" name="subir" value="Subir" /> -->
+
           <br />
           <br />
 
@@ -146,5 +149,22 @@
       </div>
       <br />
     </footer>
+
+    <script>
+      function previewImage() {
+        var file = document.getElementById("file").files;
+        if (file.length > 0) {
+          var fileReader = new FileReader();
+
+          fileReader.onload = function (event) {
+            document
+              .getElementById("preview")
+              .setAttribute("src", event.target.result);
+          };
+
+          fileReader.readAsDataURL(file[0]);
+        }
+      }
+    </script>
   </body>
 </html>
