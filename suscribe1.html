@@ -116,6 +116,8 @@
             name="Especialidad"
             placeholder="Especialidad"
             class="caja-suscribe"
+            required=""
+            pattern="[A-Z a-z]+"
           />
 
           <!-- <input type="submit" name="subir" value="Subir" /> -->
@@ -153,7 +155,16 @@
             <option value="5">A partir de 200 Bs.</option>
             <option value="6">A partir de 500 Bs.</option>
             <option value="7">A partir de 700 Bs.</option>
+            <option value="8">Otros...</option>
           </select>
+
+          <input
+            type="text"
+            name="Tarifa"
+            placeholder="Ingrese nueva Tarifa"
+            class="caja-suscribe"
+            pattern="[0-9]+"
+          />
 
           <a href="/suscribe2.html" class="a-suscribe">Siguiente</a>
         </form>
@@ -169,7 +180,7 @@
       <br />
     </footer>
 
-    <script>
+    <script type="text/javascript">
       function previewImage() {
         var file = document.getElementById("file").files;
         if (file.length > 0) {
