@@ -61,17 +61,23 @@
           <br /><br />
 
           <!-- ingresar fotografia en imagen jpg, jpeg o png -->
+          
           <label class="lbl-suscribe">Fotografía</label>
           <br />
-          Subir imagen:
-          <input
-            type="file"
-            name="Foto"
-            id="file"
-            accept=".jpg, .jpeg, .png"
-            onchange="previewImage();"
-          />
-          <img id="preview" width="250" />
+            <div class="fotografia">
+            <input
+              type="file"
+              name="Foto"
+              id="file"
+              accept=".jpg, .jpeg, .png"
+              onchange="previewImage();"
+              style="display: none;"
+            />
+            <br/>
+            <img id="preview" width="250" src="/images/foto.jpg" />
+            <br /><br />
+            <label for="file" class="btn-foto" >Seleccionar Imagen</label>
+          </div>
           <!-- <input type="submit" name="subir" value="Subir" /> -->
           <br /><br />
 
@@ -92,7 +98,7 @@
           <br /><br />
 
           <!-- <input type="submit" name="subir" value="Subir" /> -->
-          <label class="lbl-suscribe">Area de estudio</label>
+          <label class="lbl-suscribe">Área de estudio</label>
           <br />
 
           <select name="AreaEstudio" id="" class="caja-suscribe">
@@ -120,7 +126,7 @@
           <label class="lbl-suscribe">Nivel de Experiencia</label><br />
 
           <input type="radio" name="NivelExp" id="bas" value="bas" />
-          <label for="bas">Basico</label><br />
+          <label for="bas">Básico</label><br />
 
           <input type="radio" name="NivelExp" id="int" value="int" />
           <label for="int">Intermedio</label><br />
@@ -128,7 +134,7 @@
           <input type="radio" name="NivelExp" id="exp" value="exp" />
           <label for="exp">Experto</label>
           <br /><br />
-          <label class="lbl-suscribe">Descripcion</label>
+          <label class="lbl-suscribe">Descripción</label>
           <br />
           <textarea
             name="Descripcion"
