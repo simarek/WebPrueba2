@@ -147,9 +147,9 @@
           <br />
           <br />
 
-          <label class="lbl-suscribe">Tarifa precio</label><br />
-          <select name="Tarifa" id="" class="caja-suscribe">
-            <option value="0">Elija tarifa:</option>
+          <label class="lbl-suscribe">Tarifa por el trabajo</label><br />
+          <select name="Tarifa" id="tarifa" class="caja-suscribe">
+            <option value="0">-- Elija Tarifa --</option>
             <option value="1">A partir de 20 Bs.</option>
             <option value="2">A partir de 30 Bs.</option>
             <option value="3">A partir de 50 Bs.</option>
@@ -160,13 +160,16 @@
             <option value="8">Otros...</option>
           </select>
 
+          Ingresar nueva Tarifa:
           <input
             type="text"
             name="Tarifa"
-            placeholder="Ingrese nueva Tarifa"
+            placeholder="0"
             class="caja-suscribe"
             pattern="[0-9]+"
+            disabled="disabled"
           />
+          <small>Las tarifa a ingresar deberá ser un monto entero</small>
 
           <a href="/suscribe2.html" class="a-suscribe">Siguiente</a>
         </form>
