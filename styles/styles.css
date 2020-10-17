@@ -64,10 +64,10 @@ header {
 }
 
 nav {
-  width: 50%;
+  width: 46%;
   height: 80px;
   float: left;
-  text-align: left;
+  text-align: right;
   padding-top: 32px;
   padding-right: 0;
   box-sizing: border-box;
@@ -248,6 +248,8 @@ nav ul li a:hover {
   font-family: rale;
   font-weight: bold;
   background: #03989e;
+  margin-top: 22px;
+  margin-right: 120px;
   padding: 10px 10px;
   border-radius: 4px;
   text-decoration: none;
