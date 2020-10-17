@@ -254,25 +254,33 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
-.fotografia{
-  display: block;
-  width: 260px;
-}
-
-.fotografia img{
-  /* border: 2px dashed #ccc ; */
-  box-sizing: border-box;
-}
-
 .btn-foto{
   cursor: pointer;
   color: #fff;
   font-family: rale;
   font-weight: bold;
   background: #03989e;
-  padding: 10px 35px;
+  padding: 10px 39px;
   border-radius: 4px;
   text-decoration: none;
   text-transform: uppercase;
 
+}
+
+.fotografia{
+  display: block;
+  width: 260px;
+}
+
+#preview{
+  height: 260px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} 
+
+.fotografia img{
+  /* border: 2px dashed #ccc ; */
+  box-sizing: border-box;
 }

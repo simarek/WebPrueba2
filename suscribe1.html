@@ -13,9 +13,9 @@
       <div class="ancho">
         <!-- Logo principal de la pagina -->
         <div class="logo">
-          <a href="index.html"
-            ><p><img class="img-suscribe" src="images/logo7.png" /></p
-          ></a>
+          <a href="index.html">
+            <p><img class="img-suscribe" src="images/logo7.png" /></p>
+          </a>
         </div>
 
         <!-- Menu de navegacion de la pagina -->
@@ -62,7 +62,7 @@
 
           <!-- ingresar fotografia en imagen jpg, jpeg o png -->
           
-          <label class="lbl-suscribe">Fotografía</label>
+          <label class="lbl-suscribe" >Fotografía</label>
           <br />
             <div class="fotografia">
             <input
@@ -73,8 +73,8 @@
               onchange="previewImage();"
               style="display: none;"
             />
-            <br/>
-            <img id="preview" width="250" src="images/foto.jpg" />
+            
+            <img id="preview" src="images/foto.jpg" />
             <br /><br />
             <label for="file" class="btn-foto" >Seleccionar Imagen</label>
           </div>
@@ -112,15 +112,17 @@
           <br /><br />
 
           <!-- <input type="submit" name="subir" value="Subir" /> -->
-          <label class="lbl-suscribe">Especialidad</label>
+          <label class="lbl-suscribe">HABILIDADES</label><br>
+          <SMALl>* (Describe en breves palabras las habilidades con las que cunetas para un trabajor)</SMALl>
           <input
             type="text"
             name="Especialidad"
-            placeholder="Especialidad"
+            placeholder="Describe tu trabajo"
             class="caja-suscribe"
-            required=""
             pattern="[A-Z a-z]+"
           />
+          <br>
+          <br>
 
           <!-- <input type="submit" name="subir" value="Subir" /> -->
           <label class="lbl-suscribe">Nivel de Experiencia</label><br />
@@ -170,6 +172,9 @@
             disabled="disabled"
           />
           <small>Las tarifa a ingresar deberá ser un monto entero</small>
+          <br>
+          <br>
+          <br>
 
           <a href="/suscribe2.html" class="a-suscribe">Siguiente</a>
         </form>
