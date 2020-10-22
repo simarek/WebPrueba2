@@ -266,7 +266,6 @@ nav ul li a:hover {
   border-radius: 4px;
   text-decoration: none;
   text-transform: uppercase;
-
 }
 
 .fotografia{
@@ -285,4 +284,9 @@ nav ul li a:hover {
 .fotografia img{
   /* border: 2px dashed #ccc ; */
   box-sizing: border-box;
+}
+
+#file,
+#registro{
+  display: none;
 }

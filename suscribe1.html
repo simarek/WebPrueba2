@@ -71,7 +71,7 @@
               id="file"
               accept=".jpg, .jpeg, .png"
               onchange="previewImage();"
-              style="display: none;"
+              
             >
             
             <img id="preview" src="images/foto.jpg" />
@@ -116,7 +116,7 @@
           <SMALl>* (Describe en breves palabras las habilidades con las que cunetas para un trabajor)</SMALl>
           <input
             type="text"
-            name="Especialidad"
+            name="habilidades"
             placeholder="Describe tu trabajo"
             class="caja-suscribe"
             pattern="[A-Z a-z]+"
@@ -159,7 +159,7 @@
             <option value="5">A partir de 200 Bs.</option>
             <option value="6">A partir de 500 Bs.</option>
             <option value="7">A partir de 700 Bs.</option>
-            <option value="8">Otros...</option>
+            <option value="8">A partir de 1000 Bs.</option>
           </select>
 
           Ingresar nueva Tarifa:
@@ -175,8 +175,11 @@
           <br>
           <br>
           <br>
+          <!-- <a href="/suscribe2.html" class="a-suscribe">Siguiente</a> -->
 
-          <a href="/suscribe2.html" class="a-suscribe">Siguiente</a>
+          <input type="submit" name="submit" id="registro" value="Registrar Usuario" />
+          <label for="registro" class="btn-foto" >Registrar Usuario</label>
+          </div>
         </form>
       </div>
     </section>
