@@ -47,7 +47,7 @@
         <h1>Registro Freelancer</h1>
         <br>
         <br>
-        <form action="" method="post">
+        <form action="registro.php" method="post">
           <!-- caomo numero de cuenta -->
           <label class="lbl-suscribe">Número de Cuenta</label>
           <input
@@ -63,6 +63,7 @@
           <!-- ingresar fotografia en imagen jpg, jpeg o png -->
           
           <label class="lbl-suscribe" >Fotografía</label>
+          <br>
           <br>
             <div class="fotografia">
             <input
@@ -80,8 +81,6 @@
           </div>
           <!-- <input type="submit" name="subir" value="Subir" /> -->
           <br><br>
-
-          <!-- <input type="submit" name="subir" value="Subir" /> -->
           <label class="lbl-suscribe">Grado de Estudio</label>
           <br><br>
           <input type="radio" name="GradoEstudio" id="col" value="col" />
@@ -113,20 +112,22 @@
 
           <!-- <input type="submit" name="subir" value="Subir" /> -->
           <label class="lbl-suscribe">HABILIDADES</label><br>
-          <SMALl>* (Describe en breves palabras las habilidades con las que cunetas para un trabajor)</SMALl>
+          
           <input
             type="text"
             name="habilidades"
             placeholder="Describe tu trabajo"
             class="caja-suscribe"
-            pattern="[A-Z a-z]+"
+            pattern="[A-Z a-z ñÑáÁéÉíÍóÓúÚ]+"
           >
+          <small>* (Describe en breves palabras las habilidades en tu área de trabajor)</small>
           <br>
           <br>
 
           <!-- <input type="submit" name="subir" value="Subir" /> -->
-          <label class="lbl-suscribe">Nivel de Experiencia</label><br>
-
+          <label class="lbl-suscribe">Nivel de Experiencia</label>
+          <br>
+          <br>
           <input type="radio" name="NivelExp" id="bas" value="bas" />
           <label for="bas">Básico</label><br>
 
@@ -137,19 +138,20 @@
           <label for="exp">Experto</label>
           <br><br>
           <label class="lbl-suscribe">Descripción</label>
-          <br>
+          <br><br>
           <textarea
             name="Descripcion"
             placeholder="Descripcion"
             cols="68"
             rows="10"
             required=""
-            pattern="[A-Z a-z0-9]+"
+            pattern="[A-Z a-z 0-9 ñÑáÁéÉíÍóÓúÚ]+"
           ></textarea>
           <br>
           <br>
 
-          <label class="lbl-suscribe">Tarifa por el trabajo</label><br>
+          <label class="lbl-suscribe">Tarifa por el trabajo</label>
+          <br>
           <select name="Tarifa" id="tarifa" class="caja-suscribe">
             <option value="0">-- Elija Tarifa --</option>
             <option value="1">A partir de 20 Bs.</option>
@@ -161,19 +163,6 @@
             <option value="7">A partir de 700 Bs.</option>
             <option value="8">A partir de 1000 Bs.</option>
           </select>
-
-          <!--           
-          Ingresar nueva Tarifa:
-          <input
-            type="text"
-            name="Tarifa"
-            placeholder="0"
-            class="caja-suscribe"
-            pattern="[0-9]+"
-            disabled="disabled"
-          >
-          <small>Las tarifa a ingresar deberá ser un monto entero</small> 
-          -->
           
           <br>
           <br>

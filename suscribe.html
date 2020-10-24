@@ -63,8 +63,9 @@
             placeholder="Ingresa tus nombres"
             class="caja-suscribe"
             required=""
-            pattern="[A-Z a-z]+"
+            pattern="[A-Z a-z ñÑáÁéÉíÍóÓúÚ]+"
           >
+          <br><br>
 
           <label class="lbl-suscribe">Apellido Paterno</label>
           <input
@@ -72,8 +73,9 @@
             name="PaternoUsr"
             placeholder="Ingresa tu apellido Paterno"
             class="caja-suscribe"
-            pattern="[A-Z a-z]+"
+            pattern="[A-Z a-z ñÑáÁéÉíÍóÓúÚ]+"
           />
+          <br><br>
 
           <label class="lbl-suscribe">Apellido Materno</label>
           <input
@@ -82,8 +84,9 @@
             placeholder="Ingresa tu apellido Materno"
             class="caja-suscribe"
             required=""
-            pattern="[A-Z a-z]+"
+            pattern="[A-Z a-z ñÑáÁéÉíÍóÓúÚ]+"
           >
+          <br><br>
 
           <label class="lbl-suscribe">Celular</label>
           <input
@@ -94,8 +97,7 @@
             pattern="[0-9]{8}"
           />
           <small>Formato: (7xxxxxxx) o (6xxxxxxx)</small>
-          <br>
-          <br>
+          <br><br>
 
           <label class="lbl-suscribe">Cedula de Identidad</label>
           <input
@@ -105,6 +107,7 @@
             class="caja-suscribe"
             pattern="[0-9]{7,8}"
           >
+          <br><br>
 
           <label class="lbl-suscribe">E-mail</label>
           <input
@@ -115,6 +118,7 @@
             required
             pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
           >
+          <br><br>
 
           <label class="lbl-suscribe">Contraseña</label>
           <input
@@ -123,10 +127,10 @@
             placeholder="Ingresa una contraseña valida"
             class="caja-suscribe"
             required
-            pattern=".{6,20}"
-            title="Entre 8 y 20 caracteres"
+            pattern=".{6,20}[_$%&#@+-*/-<>]"
+            title="Entre 6 y 20 caracteres"
           >
-          <small>Contraseña minima de 8 carecteres</small>
+          <small>Contraseña minima de 6 carecteres</small>
           <br>
           <br>
 

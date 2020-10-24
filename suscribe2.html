@@ -47,7 +47,7 @@
         <h1>Registro Profesional</h1>
         <br>
         <br>
-        <form action="" method="post">
+        <form action="registro.php" method="post">
           <label class="lbl-suscribe">Profesion</label>
           <input
             type="text"
@@ -55,10 +55,12 @@
             placeholder="Profesion"
             class="caja-suscribe"
             required=""
-            pattern="[A-Z a-z]+"
+            pattern="[A-Z a-z ñÑáÁéÉíÍóÓúÚ]+"
           >
 
-          <label class="lbl-suscribe">Numero Registro Titulo Profesional</label>
+          <br>
+          <br>
+          <label class="lbl-suscribe">Número de Registro - Titulo Profesional</label>
           <input
             type="text"
             name="Titulo"
