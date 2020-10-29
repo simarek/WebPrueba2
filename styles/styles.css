@@ -64,7 +64,7 @@ header {
 }
 
 nav {
-  width: 46%;
+  width: 50%;
   height: 80px;
   float: left;
   text-align: right;
@@ -100,6 +100,7 @@ nav ul li a:hover {
   src: url(../fonts/Raleway-Regular.ttf);
 }
 
+/* ventana modal */
 .modal {
   width: 100%;
   height: 100vh;
@@ -107,9 +108,6 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-}
-
-.modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -119,12 +117,13 @@ nav ul li a:hover {
   visibility: hidden;
 }
 
-.inp-modal {
-  float: right;
-}
-
 .linea {
   color: #fff;
+}
+
+/* botoes de sesion y registro */
+.inp-modal {
+  float: right;
 }
 
 .lbl-modal {
@@ -142,6 +141,7 @@ nav ul li a:hover {
 }
 
 .contenedor-m {
+  display: block;
   width: 400px;
   height: 500px;
   margin: auto;
@@ -166,6 +166,19 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
+.img-modal {
+  height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.titulo-m {
+  font-family: rale;
+  font-size: 24px;
+  font-weight: bolder;
+  float: left;
+}
+
 .contenedor-m label {
   position: absolute;
   top: 30px;
@@ -175,7 +188,19 @@ nav ul li a:hover {
   cursor: pointer;
   font-family: rale;
   font-weight: bold;
+}
+
+.link-modal {
+  box-sizing: border-box;
+  font-family: rale;
+  font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  padding: 10px;
+  color: #fff;
+  background-color: #03989e;
+  border-radius: 5px;
 }
 
 #btn-modal {
@@ -184,11 +209,37 @@ nav ul li a:hover {
 
 .lbl-modal {
   font-family: rale;
+  font-weight: bold;
+  font-size: 14px;
   background: rgb(255, 217, 0);
-  float: auto;
   padding: 10px 10px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.lbl-modal:hover {
+  background: rgb(219, 186, 0);
+  transition: 0.3s;
+}
+
+.a-suscribe {
+  float: right;
+  color: #fff;
+  font-family: rale;
+  font-weight: bold;
+  font-size: 14px;
+  background: #03989e;
+  margin-top: 24px;
+  margin-right: 108px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.a-suscribe:hover {
+  background: #037b80;
+  transition: 0.3s;
 }
 
 .form-main {
@@ -242,21 +293,7 @@ nav ul li a:hover {
   padding-bottom: 2em;
 }
 
-.a-suscribe {
-  float: right;
-  color: #fff;
-  font-family: rale;
-  font-weight: bold;
-  background: #03989e;
-  margin-top: 22px;
-  margin-right: 120px;
-  padding: 10px 10px;
-  border-radius: 4px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.btn-foto{
+.btn-foto {
   cursor: pointer;
   color: #fff;
   font-family: rale;
@@ -268,25 +305,25 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
-.fotografia{
+.fotografia {
   display: block;
   width: 260px;
 }
 
-#preview{
+#preview {
   height: 260px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
   /* display: block; */
-} 
+}
 
-.fotografia img{
+.fotografia img {
   /* border: 2px dashed #ccc ; */
   box-sizing: border-box;
 }
 
 #file,
-#registro{
+#registro {
   display: none;
 }
