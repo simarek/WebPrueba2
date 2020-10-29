@@ -51,7 +51,7 @@ echo "mensaje de correcto";
 die;
 */
 
-header('Location: suscribe.html');                            // luego de la introduccion de datos vuelve a suscribe.html
+header('Location: index.html');                            // luego de la introduccion de datos vuelve a suscribe.html
 
 
 
