@@ -327,3 +327,18 @@ nav ul li a:hover {
 #registro {
   display: none;
 }
+
+/* hojas de estilo para busqueda */
+.search-main {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  height: 80px;
+  position: fixed;
+}
+
+.fondito {
+  background: #444;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}

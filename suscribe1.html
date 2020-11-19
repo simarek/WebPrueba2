@@ -65,16 +65,14 @@
           <label class="lbl-suscribe" >Fotografía</label>
           <br>
           <br>
-            <div class="fotografia">
+          <div class="fotografia">
             <input
               type="file"
               name="foto"
               id="file"
               accept=".jpg, .jpeg, .png"
-              onchange="previewImage();"
-              
+              onchange="previewImage();" 
             >
-            
             <img id="preview" src="images/foto.jpg" />
             <br><br>
             <label for="file" class="btn-foto" >Seleccionar Imagen</label>
@@ -120,7 +118,7 @@
             class="caja-suscribe"
             pattern="[A-Z a-z ñÑáÁéÉíÍóÓúÚ]+"
           >
-          <small>* (Describe en breves palabras las habilidades en tu área de trabajor)</small>
+          <small>*(Describe en breves palabras las habilidades en tu área de trabajor)</small>
           <br>
           <br>
 
@@ -128,6 +126,7 @@
           <label class="lbl-suscribe">Nivel de Experiencia</label>
           <br>
           <br>
+          
           <input type="radio" name="NivelExp" id="bas" value="bas" />
           <label for="bas">Básico</label><br>
 
@@ -137,6 +136,7 @@
           <input type="radio" name="NivelExp" id="exp" value="exp" />
           <label for="exp">Experto</label>
           <br><br>
+
           <label class="lbl-suscribe">Descripción</label>
           <br><br>
           <textarea

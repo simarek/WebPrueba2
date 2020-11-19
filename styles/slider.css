@@ -34,3 +34,60 @@
   font-size: 30px;
   padding-top: 50px;
 }
+
+/* CSS para la parte de las busquedas  */
+#fondito {
+  height: 390px;
+  width: auto;
+  background-color: #34becb;
+  background: url(../images/fondito3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-attachment: contain;*/
+  background-size: cover;
+}
+
+.search-position {
+  top: 170px;
+  position: absolute;
+  text-align: left;
+  margin-left: -126px;
+}
+
+.letras-slider .search-title {
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: none;
+}
+.letras-slider .search-txt {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.search-container {
+  margin: 20px 20px;
+}
+.search-parametros {
+  width: 25%;
+  background-color: #eee;
+}
+
+.search-files {
+  width: 65%;
+  background-color: #aaae;
+}
+.search-parametros label {
+  font-family: rale;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+aside .search-parametros {
+  float: left;
+}
+
+div .search-files {
+  float: right;
+}
