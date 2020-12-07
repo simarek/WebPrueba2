@@ -347,7 +347,8 @@ nav ul li a:hover {
 
 .perfil-formulario {
   width: 70%;
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   background-color: #eee;
   border: 1px solid #f00;
